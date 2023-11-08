@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LikedPosts = () => {
+const PostDetails = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const LikedPosts = () => {
     );
 };
 
-export default LikedPosts;
+export default PostDetails;PostDetails

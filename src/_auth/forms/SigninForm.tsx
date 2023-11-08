@@ -15,8 +15,8 @@ import { SigninValidation } from "@/lib/validation";
 import Loader from "@/components/shared/Loader";
 import { Link, useNavigate } from "react-router-dom";
 import { useToast } from "@/components/ui/use-toast"
-import { useSigninAccount } from "@/lib/react-query/queriesAndMutations";
 import { useUserContext } from "@/context/AuthContext";
+import { useSignInAccount } from '@/lib/react-query/queriesAndMutations';
 
 
 
@@ -28,7 +28,7 @@ const SignInForm = () => {
     const navigate = useNavigate();
     const {
         mutateAsync: signInAccount
-    } = useSigninAccount();
+    } = useSignInAccount();
 
     // 1. Define your form.
     const form = useForm<z.infer<typeof SigninValidation>>({

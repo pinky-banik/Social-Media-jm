@@ -7,7 +7,7 @@ export const appwriteConfig = {
     databaseId : '6545c909505633ecd31c', //import.meta.VITE_APPWRITE_DATABASE_ID, 
     savesCollectionId :'6545cc07aee9273eb2fc',
     userCollectionId : '6545cbd478a35621e74f',
-    postsCollectionId : '6545ca752972cf46986b'
+    postCollectionId : '6545ca752972cf46986b'
 }
 
 export const client = new Client();
